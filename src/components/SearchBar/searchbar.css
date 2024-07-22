@@ -1,0 +1,30 @@
+/* Add styles to the SearchBar component */
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.searchbar-container input {
+  padding: 10px; /* Increase padding */
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 350px; /* Increase width */
+  height: 40px; /* Increase height */
+}
+
+.searchbar-container button {
+  padding: 10px 20px; /* Increase padding */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px; /* Increase height */
+}
+
+.searchbar-container button:hover {
+  background-color: #0056b3;
+}
